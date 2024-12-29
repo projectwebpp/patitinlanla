@@ -42,4 +42,7 @@ iframe {
       visibility: hidden;
   }
 }
-
+ .custom-header {
+    padding-top: 16px; /* ปรับระยะด้านบน */
+    margin-bottom: 8px; /* ระยะห่างด้านล่าง */
+  }
