@@ -5,112 +5,90 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ปฏิทินล้านนา ฉบับพร้อมใช้</title>
-  <!--  MS APP -->
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/patitinlanla/img/logo.jpg">
+  
+  <!-- MS APP -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/patitinlanla/img/logo.jpg">
 
-<!-- APPLE APP -->
-<meta name="apple-mobile-web-app-title" content="มื้อจั๋นวันดี">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-transparent">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
+  <!-- APPLE APP -->
+  <meta name="apple-mobile-web-app-title" content="มื้อจั๋นวันดี">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-transparent">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
 
-<link rel="apple-touch-icon" href="/patitinlanla/img/logo.jpg">
-<link rel="apple-touch-icon" sizes="180x180" href="/patitinlanla/img/logo.jpg">
-<link rel="apple-touch-icon" sizes="152x152" href="/patitinlanla/img/logo.jpg">
-<link rel="apple-touch-icon" sizes="167x167" href="/patitinlanla/img/logo.jpg">
+  <link rel="apple-touch-icon" href="/patitinlanla/img/logo.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/patitinlanla/img/logo.jpg">
+  <link rel="apple-touch-icon" sizes="152x152" href="/patitinlanla/img/logo.jpg">
+  <link rel="apple-touch-icon" sizes="167x167" href="/patitinlanla/img/logo.jpg">
 
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img//img/logo.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/387logo.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
-<link href="/patitinlanla/img/logo.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/jpg" sizes="96x96" href="/patitinlanla/img/logo.jpg">
+  <link rel="icon" type="image/jpg" sizes="32x32" href="/patitinlanla/img/logo.jpg">
+  <link rel="icon" type="image/jpg" sizes="16x16" href="/patitinlanla/img/logo.jpg">
+  <link rel="shortcut icon" type="image/x-icon" href="/patitinlanla/img/logo.jpg">
 
-<!--  FAVICON -->
-<link rel="icon" type="image/jpg" sizes="96x96" href="/patitinlanla/img/logo.jpg">
-<link rel="icon" type="image/jpg" sizes="32x32" href="/patitinlanla/img/logo.jpg">
-<link rel="icon" type="image/jpg" sizes="16x16" href="/patitinlanla/img/logo.jpg">
-<link rel="shortcut icon" type="image/x-icon" href="/patitinlanla/img/logo.jpg">
-<link rel="icon" type="image/x-icon" href="/patitinlanla/img/logo.jpg">
-
-
-
-  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/patitinlanla/style.css" />
-  <!-- <style>
-      :root {
-        --ion-safe-area-top: 20px;
-        --ion-safe-area-bottom: 22px;
-      }
-    </style> -->
 </head>
 
-<body>
-   <div class="loader">
-   <img src="/patitinlanla/img/loading.gif" alt="กำลังโหลด..." />
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <div class="loader flex items-center justify-center h-screen bg-white">
+    <img src="/patitinlanla/img/loading.gif" alt="กำลังโหลด..." class="w-16 h-16" />
   </div>
-  <ion-app>
-    <ion-tabs>
-      <ion-header translucent>
-            <ion-toolbar>
-              <ion-title>ปฏิทินล้านนา ๒๕๖๗</ion-title>
-            </ion-toolbar>
-          </ion-header>
-      <ion-tab tab="Home">
-          <iframe height="100%" src="/patitinlanla/home.html"></iframe>
-      </ion-tab>
 
-      <ion-tab tab="work">
-        <iframe height="100%" src="https://script.google.com/macros/s/AKfycbxaeTW9YBAz9qdux8hKbw3W6JwQYgStv-AZGH3qTzRtKjYVqvtXHOl0HHUc37qO82-u/exec"></iframe>
-      </ion-tab>
+  <div class="flex flex-col h-screen">
+    <header class="bg-blue-600 text-white p-4">
+      <h1 class="text-xl font-bold text-center">ปฏิทินล้านนา ๒๕๖๘</h1>
+    </header>
+    <div class="flex-1 overflow-y-auto">
+      <div id="tabs" class="hidden">
+        <div id="Home" class="tab">
+          <iframe src="/patitinlanla/home.html" class="w-full h-screen border-none"></iframe>
+        </div>
+        <div id="work" class="tab hidden">
+          <iframe src="https://script.google.com/macros/s/AKfycbxaeTW9YBAz9qdux8hKbw3W6JwQYgStv-AZGH3qTzRtKjYVqvtXHOl0HHUc37qO82-u/exec" class="w-full h-screen border-none"></iframe>
+        </div>
+        <div id="online" class="tab hidden">
+          <iframe src="https://script.google.com/macros/s/AKfycbwf-JVUIxBW69uZVaR84WI5b5jw0zokj6bnm-3LVRMUG7-4Xc2eOH7miPcPVOe4QO5Ksw/exec" class="w-full h-screen border-none"></iframe>
+        </div>
+        <div id="ncheck" class="tab hidden">
+          <iframe src="/patitinlanla/checkday.html" class="w-full h-screen border-none"></iframe>
+        </div>
+      </div>
+    </div>
+    <nav class="bg-white shadow-lg fixed bottom-0 inset-x-0 flex justify-between">
+      <button class="tab-btn w-1/4 py-2 text-center" data-target="Home">
+        <span class="block text-gray-500">หน้าหลัก</span>
+      </button>
+      <button class="tab-btn w-1/4 py-2 text-center" data-target="work">
+        <span class="block text-gray-500">ดูฤกษ์งามยามดี</span>
+      </button>
+      <button class="tab-btn w-1/4 py-2 text-center" data-target="online">
+        <span class="block text-gray-500">ดูวันดีวันเสีย</span>
+      </button>
+      <button class="tab-btn w-1/4 py-2 text-center" data-target="ncheck">
+        <span class="block text-gray-500">เกณฑ์พิจารณาเลือกวัน</span>
+      </button>
+    </nav>
+  </div>
 
-      <ion-tab tab="online">
-        <iframe height="100%" src="https://script.google.com/macros/s/AKfycbwf-JVUIxBW69uZVaR84WI5b5jw0zokj6bnm-3LVRMUG7-4Xc2eOH7miPcPVOe4QO5Ksw/exec"></iframe>
-      </ion-tab>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const tabs = document.querySelectorAll(".tab");
+      const buttons = document.querySelectorAll(".tab-btn");
 
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          tabs.forEach((tab) => tab.classList.add("hidden"));
+          document.getElementById(btn.dataset.target).classList.remove("hidden");
+        });
+      });
 
-      <ion-tab tab="ncheck">
-        <iframe height="100%" src="/patitinlanla/checkday.html"></iframe>
-      </ion-tab>
-
-      <ion-tab-bar slot="bottom">
-        <ion-tab-button tab="Home">
-          <ion-label>หน้าหลัก</ion-label>
-          <ion-icon name="home-outline"></ion-icon>
-        </ion-tab-button>
-
-        <ion-tab-button tab="work">
-          <ion-label>ดูฤกษ์งามยามดี</ion-label>
-          <ion-icon name="calendar-outline"></ion-icon>
-        </ion-tab-button>
-
-        <ion-tab-button tab="online">
-          <ion-label>ดูวันดีวันเสีย</ion-label>
-          <ion-icon name="planet-outline"></ion-icon>
-        </ion-tab-button>
-
-
-        <ion-tab-button tab="ncheck">
-          <ion-label>เกณฑ์พิจารณาเลือกวัน</ion-label>
-          <ion-icon name="create-outline"></ion-icon>
-        </ion-tab-button>
-
-<!--          <ion-tab-button onclick="closeMe()">
-          <ion-label>ปิด</ion-label>
-          <ion-icon name="exit-outline"></ion-icon>
-        </ion-tab-button> -->
-
-      </ion-tab-bar>
-    </ion-tabs>
-  </ion-app>
-   <script src="/patitinlanla/script.js"></script>
+      // Show the first tab by default
+      document.querySelector(".tab").classList.remove("hidden");
+    });
+  </script>
 </body>
 
 </html>
